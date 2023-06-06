@@ -6,6 +6,7 @@ import { CovidView } from "./views/CovidView/CovidView";
 import QueOfrecemos from "./views/QueOfrecemos/QueOfrecemos";
 import Matricula from "./views/Matricula/Matricula";
 import { ActividadesView } from "./views/ActividadesView/ActividadesView";
+import { HorariosView } from "./views/HorariosView/HorariosView";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
           <Route path="covid" element={<CovidView />} />
           <Route path="matricula" element={<Matricula />} />
           <Route path="actividades" element={<ActividadesView />} />
-          {/* hola */}
+          <Route path="horarios" element={<HorariosView />} />
         </Route>
       </Routes>
     </BrowserRouter>

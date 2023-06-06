@@ -1,7 +1,13 @@
-export function ActividadesImg({ imagen }) {
+export function ActividadesImg({ imagen, nombre }) {
   return (
     <>
-      <img className="img-fluid" src={imagen} alt="cabecera" />
+      <img
+        className="img-fluid rounded-3"
+        src={imagen}
+        alt="cabecera"
+        title={nombre}
+        width={"150px"}
+      />
     </>
   );
 }

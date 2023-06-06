@@ -48,7 +48,12 @@ export function BotonesHome() {
         </div>
 
         <div className="">
-          <BotonHome clase="fondo-azul" texto="Horarios" icono={horarios} />
+          <BotonHome
+            clase="fondo-azul"
+            texto="Horarios"
+            icono={horarios}
+            direccion="/horarios"
+          />
         </div>
         <div className="">
           <BotonHome
